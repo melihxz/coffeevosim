@@ -1,0 +1,13 @@
+{
+  "name": "coffeevosim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "make":"coffee --compile --output compiled/ src/",
+    "test": "node compiled/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
